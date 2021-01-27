@@ -1,9 +1,12 @@
 const express = require('express');
+const router = require('./municipios');
 const app = express();
 
-app.get('/', (req, res) => {
-  res.send('Hello world');
-});
+// app.get('/', (req, res) => {
+//   res.send('Hello world');
+// });
+
+app.use(router)
 
 app.listen('4000', () => {
   console.log('Server running on port 4000');
