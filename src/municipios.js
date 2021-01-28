@@ -59,7 +59,8 @@ const Provincias = [
       "datecreated" : null,
       "dateupdated" : null
       }  
-    ]
+    ], 
+    "capital" : "Caxito"
 	},
 	{
 		"id" : 2,
@@ -147,7 +148,8 @@ const Provincias = [
       "datecreated" : null,
       "dateupdated" : null
     }
-    ]
+    ], 
+    "capital" : "Benguela"
     },
     {
       "id" : 3,
@@ -226,13 +228,49 @@ const Provincias = [
           "datecreated" : null,
           "dateupdated" : null
         }
-      ]
+      ], 
+      "capital" : "Cuito"
     },
 	{
 		"id" : 4,
 		"nome" : "Cabinda",
 		"datecreated" : null,
-		"dateupdated" : null
+    "dateupdated" : null,
+    "municipios" : [
+
+      {
+        "id" : 1,
+        "nome" : "Belize",
+        "provinciaID" : 4,
+        "datecreated" : null,
+        "dateupdated" : null
+      },
+    
+      {
+        "id" : 2,
+        "nome" : "Buco-Zau",
+        "provinciaID" : 4,
+        "datecreated" : null,
+        "dateupdated" : null
+      },
+    
+      {
+        "id" : 3,
+        "nome" : "Cabinda",
+        "provinciaID" : 4,
+        "datecreated" : null,
+        "dateupdated" : null
+      },
+    
+      {
+        "id" : 4,
+        "nome" : "Cacongo",
+        "provinciaID" : 4,
+        "datecreated" : null,
+        "dateupdated" : null
+      },
+    ],
+    "capital" : "Cabinda"
 	},
 	{
 		"id" : 5,
@@ -311,7 +349,8 @@ const Provincias = [
         "datecreated" : null,
         "dateupdated" : null
       }
-    ]
+    ],
+    "capital" : "Menongue"
 	},
 	{
 		"id" : 6,
@@ -398,7 +437,8 @@ const Provincias = [
         "datecreated" : null,
         "dateupdated" : null
       }
-    ]
+    ], 
+    "capital" : "N'dalatando"
 	},
 	{
 		"id" : 7,
@@ -501,7 +541,8 @@ const Provincias = [
         "datecreated" : null,
         "dateupdated" : null
       }
-    ]
+    ], 
+    "capital" : "Sumbe"
 	},
 	{
 		"id" : 8,
@@ -556,7 +597,8 @@ const Provincias = [
         "datecreated" : null,
         "dateupdated" : null
       }
-    ]
+    ], 
+    "capital" : "Ondjiva"
 	},
 	{
 		"id" : 9,
@@ -651,7 +693,8 @@ const Provincias = [
         "datecreated" : null,
         "dateupdated" : null
       }
-    ]
+    ], 
+    "capital" : "Haumbo"
 	},
 	{
 		"id" : 10,
@@ -770,7 +813,8 @@ const Provincias = [
         "datecreated" : null,
         "dateupdated" : null
       }
-    ]
+    ], 
+    "capital" : "Lubango"
 	},
 	{
 		"id" : 11,
@@ -849,7 +893,8 @@ const Provincias = [
         "datecreated" : null,
         "dateupdated" : null
       }
-    ]
+    ], 
+    "capital" : "Luanda"
 	},
 	{
 		"id" : 12,
@@ -928,7 +973,8 @@ const Provincias = [
         "datecreated" : null,
         "dateupdated" : null
       }
-    ]
+    ], 
+    "capital" : "Dundo"
 	},
 	{
 		"id" : 13,
@@ -967,7 +1013,8 @@ const Provincias = [
         "datecreated" : null,
         "dateupdated" : null
       }
-    ]
+    ], 
+    "capital" : "Saurimo"
 	},
 	{
 		"id" : 14,
@@ -1086,7 +1133,8 @@ const Provincias = [
         "datecreated" : null,
         "dateupdated" : null
       }
-    ]
+    ], 
+    "capital" : "Malange"
 	},
 	{
 		"id" : 15,
@@ -1165,7 +1213,8 @@ const Provincias = [
         "datecreated" : null,
         "dateupdated" : null
       }
-    ]
+    ], 
+    "capital" : "Luena"
 	},
 	{
 		"id" : 16,
@@ -1212,13 +1261,15 @@ const Provincias = [
         "datecreated" : null,
         "dateupdated" : null
       }
-    ]
+    ], 
+    "capital" : "Namibe"
 	},
 	{
 		"id" : 17,
 		"nome" : "Uíge",
 		"datecreated" : null,
-		"dateupdated" : null
+    "dateupdated" : null,
+    "capital" : "Uíge"
 	},
 	{
 		"id" : 18,
@@ -1273,7 +1324,8 @@ const Provincias = [
         "datecreated" : null,
         "dateupdated" : null
       }
-    ]
+    ], 
+    "capital" : "Mbanza Congo"
 	}
 ];
 
