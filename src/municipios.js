@@ -6,11 +6,20 @@ router.get('/', (req, res) =>{
 } );
 
 const Provincias = [
+  {
+    "project" : "API",
+    "name" : "ProvinciasMunicipiosAngola-API",
+    "description" : "Uma API totalmente gratuita com alguns dados geográficos de Angola, Como distribuição territorial das províncias onde está incluído a extenção da província, a quantidade de habitantes, os municípios, data de fundação, os governadores das mesmas, os administradores, e autarquias e etc. ",
+    "author" : "Mário Varela - https://github.com/mariovarela99",
+    "datecreated" : "Janeiro 2021",
+    "dateupdated" : null
+  },
 	{
 		"id" : 1,
 		"nome" : "Bengo",
 		"datecreated" : null,
     "dateupdated" : null,
+    "capital" : "Caxito",
     "municipios" : [
       {
         "id" : 106,
@@ -59,16 +68,15 @@ const Provincias = [
       "datecreated" : null,
       "dateupdated" : null
       }  
-    ], 
-    "capital" : "Caxito"
+    ]
 	},
 	{
 		"id" : 2,
 		"nome" : "Benguela",
 		"datecreated" : null,
     "dateupdated" : null,
+    "capital" : "Benguela",
     "municipios" : [
-      
     {
       "id" : 112,
       "nome" : "Balombo",
@@ -148,14 +156,14 @@ const Provincias = [
       "datecreated" : null,
       "dateupdated" : null
     }
-    ], 
-    "capital" : "Benguela"
+    ]
     },
     {
       "id" : 3,
       "nome" : "Bié",
       "datecreated" : null,
       "dateupdated" : null,
+      "capital" : "Cuito",
       "municipios" : [
         {
           "id" : 39,
@@ -228,14 +236,14 @@ const Provincias = [
           "datecreated" : null,
           "dateupdated" : null
         }
-      ], 
-      "capital" : "Cuito"
+      ]
     },
 	{
 		"id" : 4,
 		"nome" : "Cabinda",
 		"datecreated" : null,
     "dateupdated" : null,
+    "capital" : "Cabinda",
     "municipios" : [
 
       {
@@ -270,13 +278,13 @@ const Provincias = [
         "dateupdated" : null
       },
     ],
-    "capital" : "Cabinda"
 	},
 	{
 		"id" : 5,
 		"nome" : "Cuando Cubango",
 		"datecreated" : null,
     "dateupdated" : null,
+    "capital" : "Menongue",
     "municipios" : [
       {
         "id" : 30,
@@ -349,14 +357,14 @@ const Provincias = [
         "datecreated" : null,
         "dateupdated" : null
       }
-    ],
-    "capital" : "Menongue"
+    ]
 	},
 	{
 		"id" : 6,
 		"nome" : "Cuanza Norte",
 		"datecreated" : null,
     "dateupdated" : null,
+    "capital" : "N'dalatando",
     "municipios" : [
       {
         "id" : 96,
@@ -437,14 +445,14 @@ const Provincias = [
         "datecreated" : null,
         "dateupdated" : null
       }
-    ], 
-    "capital" : "N'dalatando"
+    ]
 	},
 	{
 		"id" : 7,
 		"nome" : "Cuanza Sul",
 		"datecreated" : null,
     "dateupdated" : null,
+    "capital" : "Sumbe",
     "municipios" : [
       {
         "id" : 122,
@@ -541,14 +549,14 @@ const Provincias = [
         "datecreated" : null,
         "dateupdated" : null
       }
-    ], 
-    "capital" : "Sumbe"
+    ]
 	},
 	{
 		"id" : 8,
 		"nome" : "Cunene",
 		"datecreated" : null,
     "dateupdated" : null,
+    "capital" : "Ondjiva",
     "municipios" : [
       {
         "id" : 5,
@@ -597,14 +605,14 @@ const Provincias = [
         "datecreated" : null,
         "dateupdated" : null
       }
-    ], 
-    "capital" : "Ondjiva"
+    ]
 	},
 	{
 		"id" : 9,
 		"nome" : "Huambo",
 		"datecreated" : null,
     "dateupdated" : null,
+    "capital" : "Haumbo",
     "municipios" : [
       {
         "id" : 85,
@@ -693,14 +701,14 @@ const Provincias = [
         "datecreated" : null,
         "dateupdated" : null
       }
-    ], 
-    "capital" : "Haumbo"
+    ]
 	},
 	{
 		"id" : 10,
 		"nome" : "Huíla",
 		"datecreated" : null,
     "dateupdated" : null,
+    "capital" : "Lubango",
     "municipios" : [
       {
         "id" : 71,
@@ -813,14 +821,14 @@ const Provincias = [
         "datecreated" : null,
         "dateupdated" : null
       }
-    ], 
-    "capital" : "Lubango"
+    ]
 	},
 	{
 		"id" : 11,
 		"nome" : "Luanda",
 		"datecreated" : null,
     "dateupdated" : null,
+    "capital" : "Luanda",
     "municipios" : [
       {
         "id" : 11,
@@ -893,14 +901,14 @@ const Provincias = [
         "datecreated" : null,
         "dateupdated" : null
       }
-    ], 
-    "capital" : "Luanda"
+    ]
 	},
 	{
 		"id" : 12,
 		"nome" : "Lunda Norte",
 		"datecreated" : null,
     "dateupdated" : null,
+    "capital" : "Dundo",
     "municipios" : [  
       {
         "id" : 48,
@@ -973,14 +981,14 @@ const Provincias = [
         "datecreated" : null,
         "dateupdated" : null
       }
-    ], 
-    "capital" : "Dundo"
+    ]
 	},
 	{
 		"id" : 13,
 		"nome" : "Lunda Sul",
 		"datecreated" : null,
     "dateupdated" : null,
+    "capital" : "Saurimo",
     "municipios" : [
       {
         "id" : 26,
@@ -1013,14 +1021,14 @@ const Provincias = [
         "datecreated" : null,
         "dateupdated" : null
       }
-    ], 
-    "capital" : "Saurimo"
+    ]
 	},
 	{
 		"id" : 14,
 		"nome" : "Malange",
 		"datecreated" : null,
     "dateupdated" : null,
+    "capital" : "Malange",
     "municipios" : [
       {
         "id" : 134,
@@ -1133,14 +1141,14 @@ const Provincias = [
         "datecreated" : null,
         "dateupdated" : null
       }
-    ], 
-    "capital" : "Malange"
+    ]
 	},
 	{
 		"id" : 15,
 		"nome" : "Moxico",
 		"datecreated" : null,
     "dateupdated" : null,
+    "capital" : "Luena",
     "municipios" : [
       {
         "id" : 62,
@@ -1213,8 +1221,8 @@ const Provincias = [
         "datecreated" : null,
         "dateupdated" : null
       }
-    ], 
-    "capital" : "Luena"
+    ]
+    
 	},
 	{
 		"id" : 16,
@@ -1269,7 +1277,121 @@ const Provincias = [
 		"nome" : "Uíge",
 		"datecreated" : null,
     "dateupdated" : null,
-    "capital" : "Uíge"
+    "capital" : "Uíge",
+    "municipios" : [
+	{
+		"id" : 148,
+		"nome" : "Zombo",
+		"provinciaID" : 17,
+		"datecreated" : null,
+		"dateupdated" : null
+	},
+	{
+		"id" : 149,
+		"nome" : "Quimbele",
+		"provinciaID" : 17,
+		"datecreated" : null,
+		"dateupdated" : null
+	},
+	{
+		"id" : 150,
+		"nome" : "Damba",
+		"provinciaID" : 17,
+		"datecreated" : null,
+		"dateupdated" : null
+	},
+	{
+		"id" : 151,
+		"nome" : "Mucaba",
+		"provinciaID" : 17,
+		"datecreated" : null,
+		"dateupdated" : null
+	},
+	{
+		"id" : 152,
+		"nome" : "Macocola",
+		"provinciaID" : 17,
+		"datecreated" : null,
+		"dateupdated" : null
+	},
+	{
+		"id" : 153,
+		"nome" : "Bembe",
+		"provinciaID" : 17,
+		"datecreated" : null,
+		"dateupdated" : null
+	},
+	{
+		"id" : 154,
+		"nome" : "Songo",
+		"provinciaID" : 17,
+		"datecreated" : null,
+		"dateupdated" : null
+	},
+	{
+		"id" : 155,
+		"nome" : "Bengas",
+		"provinciaID" : 17,
+		"datecreated" : null,
+		"dateupdated" : null
+	},
+	{
+		"id" : 156,
+		"nome" : "Sanza",
+		"provinciaID" : 17,
+		"datecreated" : null,
+		"dateupdated" : null
+	},
+	{
+		"id" : 157,
+		"nome" : "Pombo",
+		"provinciaID" : 17,
+		"datecreated" : null,
+		"dateupdated" : null
+	},
+	{
+		"id" : 158,
+		"nome" : "Ambuíla",
+		"provinciaID" : 17,
+		"datecreated" : null,
+		"dateupdated" : null
+	},
+	{
+		"id" : 159,
+		"nome" : "Uíge",
+		"provinciaID" : 17,
+		"datecreated" : null,
+		"dateupdated" : null
+	},
+	{
+		"id" : 160,
+		"nome" : "Negage",
+		"provinciaID" : 17,
+		"datecreated" : null,
+		"dateupdated" : null
+	},
+	{
+		"id" : 161,
+		"nome" : "Puri",
+		"provinciaID" : 17,
+		"datecreated" : null,
+		"dateupdated" : null
+	},
+	{
+		"id" : 162,
+		"nome" : "Alto Cuale",
+		"provinciaID" : 17,
+		"datecreated" : null,
+		"dateupdated" : null
+	},
+	{
+		"id" : 163,
+		"nome" : "Quitexe",
+		"provinciaID" : 17,
+		"datecreated" : null,
+		"dateupdated" : null
+	}
+    ]
 	},
 	{
 		"id" : 18,
