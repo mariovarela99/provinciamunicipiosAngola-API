@@ -20,6 +20,7 @@ const Provincias = [
 		"datecreated" : null,
     "dateupdated" : null,
     "capital" : "Caxito",
+    "area" : 33016,
     "municipios" : [
       {
         "id" : 106,
@@ -76,6 +77,7 @@ const Provincias = [
 		"datecreated" : null,
     "dateupdated" : null,
     "capital" : "Benguela",
+    "area" :  3178,
     "municipios" : [
     {
       "id" : 112,
@@ -164,6 +166,7 @@ const Provincias = [
       "datecreated" : null,
       "dateupdated" : null,
       "capital" : "Cuito",
+      "area" : 70314,
       "municipios" : [
         {
           "id" : 39,
@@ -244,6 +247,7 @@ const Provincias = [
 		"datecreated" : null,
     "dateupdated" : null,
     "capital" : "Cabinda",
+    "area" : 7270,
     "municipios" : [
 
       {
@@ -1222,7 +1226,6 @@ const Provincias = [
         "dateupdated" : null
       }
     ]
-    
 	},
 	{
 		"id" : 16,
